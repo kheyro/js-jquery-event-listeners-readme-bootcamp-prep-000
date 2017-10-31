@@ -11,6 +11,14 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $(document).on("keydown", function(e) {
+    if(e.which == ) {
+      alert("G");
+    }
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
