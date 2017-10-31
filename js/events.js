@@ -13,7 +13,7 @@ function frameIt() {
 
 function pressIt() {
   $(document).on("keydown", function(e) {
-    if(e.which == ) {
+    if(e.which ==  13) {
       alert("G");
     }
   });
